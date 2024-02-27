@@ -5,7 +5,7 @@ from mongoengine import connect
 from models import Contact
 
 
-connect(db="hw", host="mongodb+srv://dspuliaiev:Pp4125NZf4h4JG22@cluster0.j1fuex0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+connect(db="hw", host="mongodb+srv://dspuliaiev:password@cluster0.j1fuex0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 credentials = pika.PlainCredentials('guest', 'guest')
